@@ -3,8 +3,6 @@ layout: default
 ---
 <h1>Skills</h1>
 
-These are some of the languages and tools I learned to use over the years.
-
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; max-width: 100%; margin-top: 10px">
    <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 10px; border-radius: 8px; color: inherit; text-decoration: none; display: flex; justify-content: center; align-items: center; aspect-ratio: 1 / 1;">
     <img src="assets/img/stm32cubeide-logo.png" alt="STM32" style="width: 40px;" title="STM32">

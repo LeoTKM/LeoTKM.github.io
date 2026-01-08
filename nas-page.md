@@ -10,6 +10,7 @@ Feb 2024 - Mar 2024
     <img src="assets/img/raspberry-pi-logo.png" alt="Raspberry Pi" style="width: 24px;">
     <img src="assets/img/zsh.png" alt="Zsh" style="width: 24px;">
     <img src="assets/img/TOSHIBA_Logo.png" alt="Toshiba" style="width: 60px;">
+    <img src="assets/img/debian.png" alt="Toshiba" style="width: 20px;">
 </div>
           
 <img src="/assets/img/NAS.png" alt="Branching" width="350" style="border-radius: 10px; vertical-align: middle;">
