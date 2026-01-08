@@ -102,6 +102,12 @@ Sep 2025 - Nov 2025
     <img src="/assets/img/Steno/soldering.png" alt="Steno PCB" style="height: 400px; border-radius: 10px;">
 </div>
 
-Working on it!
+
+Currently testing the keyboard using Plover, an open-source project, on a host computer that monitors the COM port receiving keyboard input.
+
+The chip STM32F103CBT6 includes more than 23 GPIO pins which is enough to connect each switch and so I decided not to use a more complex design with keyboard matrix.
+The original approach was to use hardware interrupt lines to detect key presses and record them within a defined time period. However, there was not enough interrupt lines. So instead, I used a loop that polls the GPIO pins and monitors key state changes in software.
+
+<div style="margin-top:20px"></div>
 
 [Back](./AESN.html)
