@@ -102,7 +102,7 @@ Sep 2025 - Nov 2025
     <img src="/assets/img/Steno/soldering.png" alt="Steno PCB" style="height: 400px; border-radius: 10px;">
 </div> -->
 
-<img src="/assets/img/steno/StenoPhysical.jpeg" alt="PCB" style="height: 280px; border-radius: 10px;">
+<img src="/assets/img/Steno/StenoPhysical.jpeg" alt="PCB" style="height: 280px; border-radius: 10px;">
 <div style="margin-bottom:20px"></div>
 
 Currently testing the keyboard using Plover, an open-source project, on a host computer that monitors the COM port receiving keyboard input.
