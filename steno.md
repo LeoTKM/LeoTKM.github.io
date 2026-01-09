@@ -114,7 +114,7 @@ This project uses Plover, an open source application that inteprates input from 
 <div style="margin-top:20px"></div>
 
 <video width="400" controls>
-  <source src="/assets/img/steno/StenoWorking.mov" type="video/quicktime">
+  <source src="/assets/img/steno/StenoWorking.mp4" type="video/quicktime">
   Your browser does not support the video tag.
 </video>
 
