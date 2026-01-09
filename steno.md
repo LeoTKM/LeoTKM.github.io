@@ -105,10 +105,18 @@ Sep 2025 - Nov 2025
 <img src="/assets/img/Steno/StenoPhysical.jpeg" alt="PCB" style="height: 280px; border-radius: 10px;">
 <div style="margin-bottom:20px"></div>
 
-Currently testing the keyboard using Plover, an open-source project, on a host computer that monitors the COM port receiving keyboard input.
+The chip STM32F103 includes more than 23 GPIO pins which is enough to connect each switch and so I decided not to use a more complex design with keyboard matrix.
 
-The chip STM32F103CBT6 includes more than 23 GPIO pins which is enough to connect each switch and so I decided not to use a more complex design with keyboard matrix.
 The original approach was to use hardware interrupt lines to detect key presses and record them within a defined time period. However, there was not enough interrupt lines. So instead, I used a loop that polls the GPIO pins and monitors key state changes in software.
+
+This project uses Plover, an open source application that inteprates input from the keyboard. Plover uses the TX Bolt protocol over serial. Each word consists of 4 bytes of data with each bit indicating a pressed key.
+
+<div style="margin-top:20px"></div>
+
+<video width="400" controls>
+  <source src="/assets/img/steno/StenoWorking.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 <div style="margin-top:20px"></div>
 
