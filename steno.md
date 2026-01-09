@@ -111,6 +111,10 @@ The original approach was to use hardware interrupt lines to detect key presses 
 
 This project uses Plover, an open source application that inteprates input from the keyboard. Plover uses the TX Bolt protocol over serial. Each word consists of 4 bytes of data with each bit indicating a pressed key.
 
+ <a href="https://develop-docs.qmk.fm/features/stenography">
+Link to the protocol
+    <img src="assets/img/link.png" alt="link" style="width: 10px;">
+
 <div style="margin-top:20px"></div>
 
 <video width="400" controls>
