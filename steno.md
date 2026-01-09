@@ -39,7 +39,7 @@ Sep 2025 - Nov 2025
         }
     }
 </script>
-
+<!-- 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;"> 
     <div 
         class="toggle-button"
@@ -100,8 +100,10 @@ Sep 2025 - Nov 2025
 
 <div id="image-soldering" style="display: none; margin-top: 10px;">
     <img src="/assets/img/Steno/soldering.png" alt="Steno PCB" style="height: 400px; border-radius: 10px;">
-</div>
+</div> -->
 
+<img src="/assets/img/steno/StenoPhysical.jpeg" alt="PCB" style="height: 280px; border-radius: 10px;">
+<div style="margin-bottom:20px"></div>
 
 Currently testing the keyboard using Plover, an open-source project, on a host computer that monitors the COM port receiving keyboard input.
 
@@ -111,3 +113,4 @@ The original approach was to use hardware interrupt lines to detect key presses 
 <div style="margin-top:20px"></div>
 
 [Back](./AESN.html)
+ 
