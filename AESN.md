@@ -17,6 +17,8 @@ layout: default
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
+    border: 1.5px solid;
+    border-color: rgba(0, 0, 0, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -97,6 +99,8 @@ layout: default
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
+    border: 1.5px solid;
+    border-color: rgba(0, 0, 0, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -173,6 +177,8 @@ layout: default
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
+    border: 1.5px solid;
+    border-color: rgba(0, 0, 0, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -253,6 +259,8 @@ layout: default
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
+    border: 1.5px solid;
+    border-color: rgba(0, 0, 0, 0.5);
   ">
     <a href="./nas-page.html" style="
       text-decoration: none;
