@@ -12,7 +12,7 @@ Jun 2025 - Jul 2025
     <img src="assets/img/BusinessCard/logo.jpg" alt="STM32CubeIDE" style="width: 28px;">
     <img src="assets/img/altium-logo.png" alt="Altium Designer" style="width: 120px; horizontal-align: middle;">
 </div>
-<h3 style="margin: 10px">Version 2</h3>     
+<h3 style="margin-bottom: 10px">Version 2</h3>     
 <img src="/assets/img/BusinessCard/BusinessV3.jpg" alt="SAM PCB" style="height: 280px; border-radius: 10px;">
 <div style="margin-bottom:20px"></div>
 
@@ -21,7 +21,7 @@ This is the second version, featuring the addition of a MicroSD card slot, reinf
 The previous version was powered up and tested. However, some flaws prevented direct access via USB. These issues have been resolved, and the board is expected to trigger computer scripts once the components and firmware are added. 
 <div style="margin-bottom:20px"></div>
 
-<h3 style="margin: 10px">Version 1</h3>     
+<h3 style="margin-bottom: 10px">Version 1</h3>     
 <img src="/assets/img/BusinessCard/BusinessReal.jpeg" alt="SAM PCB" style="height: 280px; border-radius: 10px;">
 <div style="margin-bottom:20px"></div>
 

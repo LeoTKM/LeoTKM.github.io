@@ -4,7 +4,7 @@ layout: default
 
 
 ## Stenokeyboard
-Sep 2025 - Nov 2025
+Oct 2025 - Dec 2025
 
 
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 240px; margin-bottom: 24px;">

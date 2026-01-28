@@ -5,7 +5,76 @@ layout: default
 
 <h1> Experiences </h1>
 <div style="display: flex; flex-wrap:wrap">
-  
+
+
+  <div style="
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    background: rgba(191, 222, 247, 0.81);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 220px;
+    position: relative;
+    border: 1.5px solid;
+    border-color: rgba(0, 0, 0, 0.5);
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./TrackerFaceProject" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+      <div style="height: 100%;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          Face Tracker
+        </h2>
+        <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
+          A two-axis rotational camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
+        </h5>
+        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">Under Development</h6>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="/assets/img/TrackerDemo.png" 
+        alt="Description"
+        style="
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+
+
+
+
   <div style="
     display: flex;
     border-radius: 8px;

@@ -14,7 +14,7 @@ layout: default
 </div>
 
 <script>
-const HASHED_SECRET_CODE = "972356a4c7c6ec11c81f19edf6f2969f054bbd35f72c51de6e364475e8870885"; 
+const HASHED_SECRET_CODE = "dcdc240c9e0c71a200eec8cc118ae8dbd640ae3f79b8d41515d96462bc09bcc7"; 
 
 async function checkCode() {
   const input = document.getElementById('codeInput').value;
