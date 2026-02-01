@@ -60,7 +60,7 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/TrackerDemo.png" 
+        src="/assets/img/FaceTracker/TrackerDemo.png" 
         alt="Description"
         style="
           width: 100%;
