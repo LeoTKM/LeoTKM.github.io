@@ -27,7 +27,7 @@ Phase 1 involves testing and developing firmware for a USB camera (to be replace
 <div style="margin-top:20px"></div>
 
 <video width="400" controls>
-  <source src="/assets/img/FaceTracker/StepperMotor.mp4" type="video/quicktime">
+  <source src="/assets/img/FaceTracker/StepperMotor.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <img src="/assets/img/FaceTracker/Camera.png" alt="TrackerCamera" style="height: 280px; border-radius: 10px;">

@@ -191,6 +191,9 @@ layout: default
           Built a GNSS receiver at UBC Rocket.
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">Real Life Application</h6>
+          </div>
           <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
             <h6 style="margin: 0">UBC</h6>
           </div>
