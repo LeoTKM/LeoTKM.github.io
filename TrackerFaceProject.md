@@ -17,25 +17,32 @@ A face tracker that processes camera input and rotates using its internal steppe
 
 The main technical challenges in this project are implementing the face tracking algorithm on limited hardware and controlling the stepper motors through the H-bridge drivers. Running OpenCV functions on a 500MHz STM32 with limited memory requires optimization of the camera library, and may also need to use external memory or offloading some tasks such as dedicating a second STM32 for motor control. 
 
-To avoid design flaws caused by unfamiliarity with the components, the project is divided into different phases to test individual devices, followed by the final assembly. 
+<!-- To avoid design flaws caused by unfamiliarity with the components, the project is divided into different phases to test individual devices, followed by the final assembly.  -->
 
 <h3 style="margin-bottom:10px; margin-top:10px">Phase 1 (Completed) </h3>  
 
-Phase 1 involves testing and developing firmware for a USB camera (to be replaced later by a DCMI camera) and a small stepper motor.
+Phase 1 involves testing and developing firmware for a USB camera (to be replaced later by a DCMI camera) and a 2-phase stepper motor.
 
 
 <div style="margin-top:20px"></div>
 
-<video width="400" controls>
-  <source src="/assets/img/FaceTracker/StepperMotor.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<img src="/assets/img/FaceTracker/Camera.png" alt="TrackerCamera" style="height: 280px; border-radius: 10px;">
-
+<div style="display: flex; gap: 20px; align-items: stretch;">
+  <video style="width: 220px; height: 220px; border-radius: 10px; object-fit: cover;" controls>
+    <source src="/assets/img/FaceTracker/StepperMotor.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <img src="/assets/img/FaceTracker/Camera.png" alt="TrackerCamera" style="width: 220px; height: 220px; border-radius: 10px; object-fit: cover;">
+</div>
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">Phase 2 </h3>  
-To test the audio module. 
+Will be building a prototype consisting of the motor, the camera, a microcontroller, and several other devices before moving on to the actual PCB design. 
+
+A 3D case will also be necessary to fit everything and to decide on the layout. 
+
+
 
 <div style="margin-top:20px"></div>
 [Back](./AESN.html)
+
