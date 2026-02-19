@@ -15,7 +15,7 @@ Feb 2024 - Mar 2024
           
 <img src="/assets/img/NAS.png" alt="Branching" width="350" style="border-radius: 10px; vertical-align: middle;">
 
-
+<div style="margin-bottom:20px"></div>
 
 Software that supports file sharing often comes with latency issues and tedious authentication and complicated navigation. In my family, we don't need fancy online editing features, we just want to share and access our pictures and videos as quickly and easily as possible. And that's why I decided to build a NAS.
 
