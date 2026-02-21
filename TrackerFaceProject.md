@@ -36,12 +36,14 @@ Phase 1 involves testing and developing firmware for a USB camera (to be replace
 Will be building a prototype consisting of the motor, the camera, a microcontroller, and several other devices before moving on to the actual PCB design. 
 
 <div style="margin-top:20px"></div>
+<div style="display: flex; gap: 20px; align-items: stretch;">
 
-<video style="width: 220px; height: 220px; border-radius: 10px; object-fit: cover;" controls muted>
+  <video style="width: 220px; height: 220px; border-radius: 10px; object-fit: cover;" controls muted>  
     <source src="/assets/img/FaceTracker/Prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-
+  <img src="/assets/img/FaceTracker/CAD.jpg" alt="TrackerCamera" style="width: 300px; height: 220px; border-radius: 10px; object-fit: cover;">
+</div>
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">Phase 3</h3>  
