@@ -42,7 +42,7 @@ Will be building a prototype consisting of the motor, the camera, a microcontrol
     <source src="/assets/img/FaceTracker/Prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <img src="/assets/img/FaceTracker/CAD.jpg" alt="TrackerCamera" style="width: 300px; height: 220px; border-radius: 10px; object-fit: cover;">
+  <img src="/assets/img/FaceTracker/CAD.jpeg" alt="TrackerCamera" style="width: 300px; height: 220px; border-radius: 10px; object-fit: cover;">
 </div>
 <div style="margin-top:20px"></div>
 
