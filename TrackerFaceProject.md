@@ -13,9 +13,7 @@ Jan 2026 -
     <img src="assets/img/UBC/UBCRocketsLogo.png" alt="UBC Rocket" style="width: 30px;">
     <img src="assets/img/altium-logo.png" alt="Altium Designer" style="width: 120px;">
 </div> -->
-This is a vision-based tracking system that detects a human face and performs closed-loop motor control to maintain perfect alignment in real time. 
-
-
+This is a ROS2-based pan-tilt face-tracking camera.
 
 <!-- The main technical challenges in this project are implementing the face tracking algorithm on limited hardware and controlling the stepper motors through the H-bridge drivers. Running OpenCV functions on a 500MHz STM32 with limited memory requires optimization of the camera library, and may also need to use external memory or offloading some tasks such as dedicating a second STM32 for motor control.  -->
 
@@ -53,13 +51,14 @@ Built a prototype integrating:
 </div>
 <div style="margin-top:20px"></div>
 
-<h3 style="margin-bottom:10px; margin-top:10px">Before PCB</h3>  
-In this phase, every component including the code will be fit tested. 
+<h3 style="margin-bottom:10px; margin-top:10px">Firmware on Pi (Completed)</h3>  
+Earlier last week, I wrote a face detection algorithm in Python using OpenCV on my personal computer and verified the needed functions. At this stage of the project, the control logic that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
 
 
-With the latest version of ROS2 running on the Pi Zero 2 W (The controller), the OpenCV based face recognition algorithm can run directly in Python without readapting the code written during the Viability Test phase. On the other hand, the majority of sensor data acquisition is implemented in C++ to achieve lower latency.
 
-<div style="margin-top:20px"></div>
+As of March 10th, the integration was successful, the camera base rotated along the x-axis following a face (one of the two stepper motors decided to quit), a very pleasing milestone, and we can safely move on to the PCB design phase. 
+
+
 <div style="display: flex; gap: 20px; align-items: stretch;">
 
 <!-- <img src="/assets/img/FaceTracker/CameraFrame.jpg" alt="TrackerSchematic" style="height: 280px; border-radius: 10px;"> -->
