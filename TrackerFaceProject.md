@@ -56,7 +56,7 @@ Earlier last week, I wrote a face detection algorithm in Python using OpenCV on 
 
 
 
-As of March 10th, the integration was successful, the camera base rotated along the x-axis following a face (one of the two stepper motors decided to quit), a very pleasing milestone, and we can safely move on to the PCB design phase. 
+As of March 10th, the integration was successful, the camera base rotated along the z-axis following a face (one of the two stepper motors decided to quit), a very pleasing milestone, and we can safely move on to the PCB design phase. 
 
 
 <div style="display: flex; gap: 20px; align-items: stretch;">
