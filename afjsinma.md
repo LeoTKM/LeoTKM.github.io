@@ -23,6 +23,10 @@ layout: default
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 40px;" title="Git">
     </a>
     <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 10px; border-radius: 8px; color: inherit; text-decoration: none; display: flex; justify-content: center; align-items: center; aspect-ratio: 1 / 1;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV" style="width: 40px">
+          
+    </a>
+    <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 10px; border-radius: 8px; color: inherit; text-decoration: none; display: flex; justify-content: center; align-items: center; aspect-ratio: 1 / 1;">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" style="width: 40px;" title="TypeScript">
     </a>
     <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 10px; border-radius: 8px; color: inherit; text-decoration: none; display: flex; justify-content: center; align-items: center; aspect-ratio: 1 / 1;">
