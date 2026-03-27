@@ -75,7 +75,7 @@ Everything was done on my iMac, using SSH and VSCode.
         <figcaption style="margin-top: 8px; color: #666;">Figure 3: PID control diagram</figcaption>
     </figure>
 </div>
-
+<div style="margin-top:20px"></div>
 The current model experiences stalling when new motor control signals come in (charging and discharging the coils). That could be mitigated using stepper motor acceleration libraries to smooth the motion, however, the camera's motion toward the target position still has jitter which I want to avoid. As a result, I'm using a closed-loop PID controller to actively drive the motor, with the target speed adjusted based on the positional offset provided by the camera feedback.
 <div style="display: flex; gap: 20px; align-items: stretch;">
 
