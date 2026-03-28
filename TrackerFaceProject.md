@@ -58,8 +58,9 @@ Built a prototype integrating:
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">Control and Tuning (In Progress)</h3>  
-Earlier last week, I wrote a face detection algorithm in Python using OpenCV on my personal computer and verified the needed functions. At this stage of the project, the control logic that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
+Earlier last week, I wrote a face detection algorithm in Python using OpenCV on my personal computer and verified the needed functions. At this stage of the project, the motor controls that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
 Everything was done on my iMac, using SSH and VSCode.
+
 <div style="margin-top:20px"></div>
 
 
@@ -83,6 +84,14 @@ The current model experiences stalling when new motor control signals come in (c
 <!-- <img src="/assets/img/FaceTracker/CameraFrame.jpg" alt="TrackerSchematic" style="height: 280px; border-radius: 10px;"> -->
 <!-- <img src="/assets/img/FaceTracker/Pi.png" alt="TrackerSchematic" style="height: 280px; border-radius: 10px;"> -->
 </div>
+<div style="margin-top:20px"></div>
+
+<h3 style="margin-bottom:10px; margin-top:10px">PCB Design (In Progress)</h3>  
+
+I’m using a DRV8825 motor driver for the motors, but the board uses a potentiometer for current limiting and male header pins for communication, which turned out to be quite unreliable.
+
+In addition, I need to power both the Pi and the motors, so I will need a proper power distribution solution. With that in mind, I plan to move to a custom 4-layer PCB design once PID tuning and ROS2 are integrated into the system.
+
 <div style="margin-top:20px"></div>
 [Back](./AESN.html)
 
