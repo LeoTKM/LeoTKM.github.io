@@ -9,7 +9,7 @@ layout: default
 cGPA: 3.98 / 4.00
 <div style="margin-top:20px"></div>
 
-
+<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
 <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     CSC258 Computer Organization
@@ -18,7 +18,7 @@ cGPA: 3.98 / 4.00
 <div style="display: flex; gap: 20px; align-items: stretch; justify-content: center;">
     <div style="margin-top:10px; text-align: center;">
         <figure style="margin: 0;">
-            <video style="width: 500px; border-radius: 10px; object-fit: cover;" controls muted>  
+            <video style="width: 480px; border-radius: 10px; object-fit: cover;" controls muted>  
                 <source src="/assets/img/CSC258Project.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -26,8 +26,10 @@ cGPA: 3.98 / 4.00
         </figure>
     </div>
 </div>
+</div>
 
-<div style="margin-top:40px"></div>
+<div style="margin-top:20px"></div>
+<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
 <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     PHY254 Classical Mechanics
@@ -49,18 +51,24 @@ Studied the behaviour of classical mechanical oscillators in linear, damped, and
     </figure>
 </div>
 
-<div style="margin-top:40px"></div>
+</div>
 
+<div style="margin-top:20px"></div>
+<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
 <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     MAT235 Multivariable Calculus
   </a>
 </div>
-<div style="margin-top:10px"></div>
+
+</div>
+<div style="margin-top:20px"></div>
+<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
 <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     PHY224 Practical Physics
   </a>
+</div>
 </div>
 
 
