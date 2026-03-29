@@ -9,12 +9,13 @@ layout: default
 cGPA: 3.98 / 4.00
 <div style="margin-top:20px"></div>
 
-<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
-<div style="width: 280px">
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+<!-- <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     CSC258 Computer Organization
   </a>
-</div>
+</div> -->
+<h3>CSC258 Computer Organization</h3>
 <div style="display: flex; gap: 20px; align-items: stretch; justify-content: center;">
     <div style="margin-top:10px; text-align: center;">
         <figure style="margin: 0;">
@@ -29,15 +30,16 @@ cGPA: 3.98 / 4.00
 </div>
 
 <div style="margin-top:20px"></div>
-<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
-<div style="width: 280px">
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+<!-- <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
     PHY254 Classical Mechanics
   </a>
-</div>
+</div> -->
+<h3>PHY254 Classical Mechanics</h3>
 <div style="margin-top:10px"></div>
 Studied the behaviour of classical mechanical oscillators in linear, damped, and coupled systems. Performed mathematical derivations in class and implemented Python models.
-
+<div style="margin-top:10px"></div>
 <div style="margin-top:0px; text-align: center;">
     <figure style="margin: 0;">
         <img src="/assets/img/Solution-3-masses.jpg" alt="TrackerSchematic" style="width: 450px; border-radius: 10px;">
@@ -54,21 +56,15 @@ Studied the behaviour of classical mechanical oscillators in linear, damped, and
 </div>
 
 <div style="margin-top:20px"></div>
-<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
-<div style="width: 280px">
-  <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
-    MAT235 Multivariable Calculus
-  </a>
-</div>
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+
+<h3>MAT235 Multivariable Calculus</h3>
 
 </div>
 <div style="margin-top:20px"></div>
-<div style="width: 480px; background: #fafafa; border-radius: 8px; padding: 20px;">
-<div style="width: 280px">
-  <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
-    PHY224 Practical Physics
-  </a>
-</div>
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+
+<h3>PHY224 Practical Physics</h3>
 </div>
 
 
