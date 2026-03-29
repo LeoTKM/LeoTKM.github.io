@@ -5,7 +5,8 @@ layout: default
 
 ## University of Toronto
 **Double Major in Computer Science & Physics**  
-*2024 – Present*  
+*2024 – Present*
+
 cGPA: 3.98 / 4.00
 <div style="margin-top:20px"></div>
 

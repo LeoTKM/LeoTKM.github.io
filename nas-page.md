@@ -3,8 +3,8 @@ layout: default
 ---
 
 ## NAS Network Attached Storage
-Feb 2024 - Mar 2024
-
+*Feb 2024 - Mar 2024*
+<div style="margin-bottom:10px"></div>
 
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 240px; margin-bottom: 24px;">
     <img src="assets/img/raspberry-pi-logo.png" alt="Raspberry Pi" style="width: 24px;">

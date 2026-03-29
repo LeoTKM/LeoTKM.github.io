@@ -3,8 +3,8 @@ layout: default
 ---
 
 ## Business Card V2
-Jun 2025 - Jul 2025
-
+*Jun 2025 - Jul 2025*
+<div style="margin-bottom:10px"></div>
 
 
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 240px; margin-bottom: 24px;">

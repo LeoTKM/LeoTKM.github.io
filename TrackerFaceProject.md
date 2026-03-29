@@ -4,7 +4,7 @@ layout: default
 
 
 ## Face Tracker
-Jan 2026 - 
+*Jan 2026* -
 <div style="text-align: center;">
     <img src="/assets/img/FaceTracker/TrackerDemo.jpg" alt="TrackerSchematic" style="height: 320px; border-radius: 10px;">
 </div>

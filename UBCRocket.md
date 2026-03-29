@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## UBC Rocket
-May 2025 - Aug 2025
+*May 2025 - Aug 2025*
 
 
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 240px; margin-bottom: 24px;">

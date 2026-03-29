@@ -4,8 +4,8 @@ layout: default
 
 
 ## Stenokeyboard
-Oct 2025 - Dec 2025
-
+*Oct 2025 - Dec 2025*
+<div style="margin-bottom:10px"></div>
 
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; max-width: 240px; margin-bottom: 24px;">
     <img src="assets/img/stm32cubeide-logo.png" alt="STM32CubeIDE" style="width: 28px;">
