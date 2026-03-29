@@ -49,7 +49,7 @@ Studied the behaviour of classical mechanical oscillators in linear, damped, and
 <div style="margin-top:10px; text-align: center;">
     <figure style="margin: 0;">
         <img src="/assets/img/CoupledOscillation.jpg" alt="TrackerSchematic" style="width: 450px; border-radius: 10px;">
-        <figcaption style="margin-top: 0px; color: #666;">Figure 2: Solution to a 3 mass 2 spring coupled system</figcaption>
+        <figcaption style="margin-top: 0px; color: #666;">Figure 2: Solution to a 3 mass 4 spring coupled system</figcaption>
     </figure>
 </div>
 
