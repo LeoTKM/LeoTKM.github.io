@@ -33,7 +33,7 @@ cGPA: 3.98 / 4.00
     PHY254 Classical Mechanics
   </a>
 </div>
-<div style="margin-top:20px"></div>
+<div style="margin-top:10px"></div>
 Studied the behaviour of classical mechanical oscillators in linear, damped, and coupled systems. Performed mathematical derivations in class and implemented Python models.
 
 <div style="margin-top:0px; text-align: center;">
@@ -49,7 +49,7 @@ Studied the behaviour of classical mechanical oscillators in linear, damped, and
     </figure>
 </div>
 
-<div style="margin-top:20px"></div>
+<div style="margin-top:40px"></div>
 
 <div style="width: 280px">
   <a href="#" style="display: block; background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%); padding: 8px 1px; border-radius: 8px; color: inherit; text-decoration: none; text-align: center; font-weight: 600;">
