@@ -102,6 +102,11 @@ The PID parameters were physcially tuned using a custom 3D base.
         <figcaption style="margin-top: 8px; color: #666;">Figure 4: The camera following my face</figcaption>
     </figure>
 </div>
+
+<div style="margin-top:20px"></div>
+
+<h3 style="margin-bottom:10px; margin-top:10px">ROS2 Integration (In Progress)</h3>  
+Camera motion in one axis is relatively simple to control, however, with the addition of the second motor, the program must continuously switch between reading the angle, updating each motor with the new position, and checking whether the person has moved. It’s going to be impossible to navigate if we add new functions such as checking the PCB temperature or enabling voice commands. As a result, I'm adding ROS2 to this project. In addition to the reasons mentioned above, I'm also doing this because I wanted to have a STM32 chip on the PCB, and it will be much easier to communicate with it using C.
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">PCB Design (In Progress)</h3>  
