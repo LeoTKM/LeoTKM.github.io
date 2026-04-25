@@ -62,8 +62,8 @@ Built a prototype integrating:
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">Control and Tuning (Completed)</h3>  
-Earlier last week, I wrote a face detection algorithm in Python using OpenCV on my personal computer and verified the needed functions. At this stage of the project, the motor controls that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
-Everything was done on my iMac, using SSH and VSCode.
+The face detection algorithm was written in Python using OpenCV and it was verified on my computer. At this stage of the project, the motor controls that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
+Everything was done using SSH and VSCode.
 
 <div style="margin-top:20px"></div>
 
@@ -76,7 +76,8 @@ Everything was done on my iMac, using SSH and VSCode.
 </div>
 
 <div style="margin-top:20px"></div>
-The current model experiences stalling when new motor control signals come in (charging and discharging the coils). That could be mitigated using stepper motor acceleration libraries to smooth the motion, however, the camera's motion toward the target position still has jitter. As a result, I'm using a closed-loop PID controller to actively drive the motor, with the target PWM driving frequency adjusted based on the angle offset provided by the onboard magnetic encoder via I2C.
+<!-- The current model experiences stalling when new motor control signals come in (charging and discharging the coils). That could be mitigated using stepper motor acceleration libraries to smooth the motion, however, the camera's motion toward the target position still has jitter. As a result,  -->
+I'm using a closed-loop PID controller to actively drive the motor, with the target PWM driving frequency adjusted based on the angle offset provided by the onboard magnetic encoder via I2C.
 
 
 The PID parameters were physcially tuned using a custom 3D base. 
