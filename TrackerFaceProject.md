@@ -62,8 +62,9 @@ Built a prototype integrating:
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">Control and Tuning (Completed)</h3>  
-The face detection algorithm was written in Python using OpenCV and it was verified on my computer. At this stage of the project, the motor controls that was previously written in C with a STM32 dev board was adapted along with the new detection program into Python on a Pi Zero 2W, which will be the brain of the system. 
-Everything was done using SSH and VSCode.
+The face detection algorithm was written in Python using OpenCV and it was verified on my computer. For simplicity, the motor control logic was initially written and tested on a STM32 dev board. Later, it was adapted into Python. Both programs are now stored on a Raspberry Pi Zero 2W which serves as the processor of the project. 
+
+Programming was done using SSH and VSCode.
 
 <div style="margin-top:20px"></div>
 
@@ -90,8 +91,6 @@ The PID parameters were physcially tuned using a custom 3D base.
     </figure>
 </div>
 
-<!-- <img src="/assets/img/FaceTracker/CameraFrame.jpg" alt="TrackerSchematic" style="height: 280px; border-radius: 10px;"> -->
-<!-- <img src="/assets/img/FaceTracker/Pi.png" alt="TrackerSchematic" style="height: 280px; border-radius: 10px;"> -->
 </div>
 
 <div style="margin-top:20px; text-align: center;">
