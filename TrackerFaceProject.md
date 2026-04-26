@@ -5,6 +5,9 @@ layout: default
 
 ## Face Tracker
 *Jan 2026* -
+
+<!-- c, python, opencv, PID, Altium, i2c, ROS2, MATLAB? -->
+
 <div style="margin-bottom:10px"></div>
 <a href="https://github.com/MarcusLeoTKM/FaceTrack26" aria-label="GitHub Repository" style="color: #24292e; text-decoration: none; display: inline-block;">
     <svg height="32" viewBox="0 0 16 16" width="24" style="display: block;">
@@ -46,7 +49,7 @@ Built a prototype integrating:
 <div style="display: flex; gap: 20px; align-items: stretch; justify-content: center;">
     <div style="margin-top:20px; text-align: center;">
         <figure style="margin: 0;">
-            <video style="width: 300px; border-radius: 10px; object-fit: cover;" controls muted>  
+            <video style="width: 450px; border-radius: 10px; object-fit: cover;" controls muted>  
                 <source src="/assets/img/FaceTracker/Prototype.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
