@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<h1> Experiences </h1>
+<!-- <h1> Experiences </h1> -->
 <div style="display: flex; flex-wrap:wrap">
 
 
@@ -13,13 +13,14 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(191, 222, 247, 0.81);
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
-    border: 1.5px solid;
-    border-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -33,12 +34,16 @@ layout: default
       position: relative;
       z-index: 2;
     ">
+    
       <div style="height: 100%;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Face Tracker
         </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Jan 2026 - </i>
+        </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          A two-axis rotational camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
+          A 2 DoF pan-tilt camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
@@ -60,12 +65,12 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/FaceTracker/TrackerDemo.jpg" 
+        src="/assets/img/FaceTracker/FaceTrackPID.png" 
         alt="Description"
         style="
           width: 100%;
           height: 80%;
-          object-fit: cover;
+          object-fit: contain;
           border-radius: 8px;
         "
       >
@@ -81,13 +86,14 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(191, 222, 247, 0.81);
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
-    border: 1.5px solid;
-    border-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -105,10 +111,25 @@ layout: default
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Stenokeyboard
         </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Oct 2025 - Dec 2025</i>
+        </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           This is my personal project where I designed a steno keyboard from scratch.
         </h5>
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+          <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
+          <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
+          </div>
+
+          <div title="USB" style="width: 12px; height: 12px; background-color:rgb(70, 184, 35); border-radius: 2px;"></div>
+
+          <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
+
+    
+        </div>
+
+        <!-- <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
           <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
             <h6 style="margin: 0">Personal Project</h6>
           </div>
@@ -127,7 +148,7 @@ layout: default
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Altium</h6>
           </div>
-        </div>
+        </div> -->
       </div>
     </a>
 
@@ -143,7 +164,7 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/UBC/StenoPCB.png" 
+        src="/assets/img/Steno/StenoPhysical.jpeg" 
         alt="Description"
         style="
           width: 100%;
@@ -163,13 +184,14 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(191, 222, 247, 0.81);
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
-    border: 1.5px solid;
-    border-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -187,11 +209,19 @@ layout: default
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           SAM M10Q GNSS
         </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Jul 2025 - Aug 2025</i>
+        </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          Built a GNSS receiver at UBC Rocket.
+          Built a GNSS receiver to provide location to the rocket at UBC Rocket 
         </h5>
+        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+          <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;"></div>
+          <div title="NMEA" style="width: 12px; height: 12px; background-color: rgb(108, 252, 159); border-radius: 2px;"></div>
+          <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
+        </div>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Real Life Application</h6>
           </div>
           <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
@@ -205,7 +235,7 @@ layout: default
           </div>
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">STM32</h6>
-          </div>
+          </div> -->
         </div>
       </div>
     </a>
@@ -244,13 +274,14 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(191, 222, 247, 0.81);
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
-    border: 1.5px solid;
-    border-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -268,11 +299,27 @@ layout: default
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Business Card
         </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Jun 2025 - Jul 2025</i>
+        </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           This is a four layer PCB business card built from scratch.
         </h5>
+        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+          <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
+
+          <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
+          
+          </div>
+          <div title="UART" style="width: 12px; height: 12px; background-color:rgb(165, 226, 65); border-radius: 2px;"></div>
+          <div title="SPI" style="width: 12px; height: 12px; background-color:rgb(84, 126, 72); border-radius: 2px;"></div>
+          
+          <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
+
+        </div>
+
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">SPI</h6>
           </div>
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
@@ -289,7 +336,7 @@ layout: default
           </div>
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">STM32</h6>
-          </div>
+          </div> -->
         </div>
       </div>
     </a>
@@ -326,13 +373,14 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(191, 222, 247, 0.81);
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     height: 220px;
     position: relative;
-    border: 1.5px solid;
-    border-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
   ">
     <a href="./nas-page.html" style="
       text-decoration: none;
@@ -348,11 +396,14 @@ layout: default
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           NAS
         </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Feb 2024 - Mar 2024</i>
+        </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           Solved latency issues and tedious authentication and complicated navigation.
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
+          <!-- <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
           <h6 style="margin: 0">Personal Project</h6>
           </div>
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
@@ -360,7 +411,7 @@ layout: default
           </div>
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Linux</h6>
-          </div>
+          </div> -->
         </div>
       </div>
     </a>

@@ -26,7 +26,9 @@ layout: default
     }
 </style>
 
-<div class="typewriter">
+<!-- <div class="typewriter">
     <h1>Hey, I'm Leo. Welcome to my site!✌️</h1>
-</div>
+</div> -->
+<h1>Leo Wang</h1>
+<h4>I am a second-year undergraduate student at University of Toronto. </h4>
 </div>
