@@ -121,7 +121,7 @@ layout: default
       position: relative;
       z-index: 2;
     ">
-      <div style="height: 100%;">
+      <div style="height: 100%; display: flex; flex-direction: column;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Stenokeyboard
         </h2>
@@ -132,7 +132,8 @@ layout: default
           This is my personal project where I designed a steno keyboard from scratch.
         </h5>
         
-        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+        
+        <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
           <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
           </div>
@@ -145,31 +146,7 @@ layout: default
           <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
 
           <div title="C" style="width: 12px; height: 12px; background-color: #e2accd; border-radius: 2px;"></div>
-
-
-    
         </div>
-
-        <!-- <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
-            <h6 style="margin: 0">Personal Project</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Fusion</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">USB2.0</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">STM32</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Plover</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Altium</h6>
-          </div>
-        </div> -->
       </div>
     </a>
 
@@ -226,7 +203,7 @@ layout: default
       position: relative;
       z-index: 2;
     ">
-      <div style="height: 100%;">
+      <div style="height: 100%;  display: flex; flex-direction: column;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           SAM M10Q GNSS
         </h2>
@@ -236,27 +213,11 @@ layout: default
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           Built a GNSS receiver to provide location to the rocket at UBC Rocket 
         </h5>
-        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+
+        <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;"></div>
           <div title="NMEA" style="width: 12px; height: 12px; background-color: rgb(83, 143, 66); border-radius: 2px;"></div>
           <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
-        </div>
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Real Life Application</h6>
-          </div>
-          <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
-            <h6 style="margin: 0">UBC</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">NMEA</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Altium</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">STM32</h6>
-          </div> -->
         </div>
       </div>
     </a>
@@ -316,7 +277,7 @@ layout: default
       position: relative;
       z-index: 2;
     ">
-      <div style="height: 100%;">
+      <div style="height: 100%;  display: flex; flex-direction: column;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Business Card
         </h2>
@@ -326,7 +287,7 @@ layout: default
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           This is a four layer PCB business card built from scratch.
         </h5>
-        <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
+        <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
           <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
 
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
@@ -337,27 +298,6 @@ layout: default
           
           <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
 
-        </div>
-
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">SPI</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">UART</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">4 Layer</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">MicroSD</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Altium</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">STM32</h6>
-          </div> -->
         </div>
       </div>
     </a>
