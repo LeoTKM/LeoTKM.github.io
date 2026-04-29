@@ -131,7 +131,7 @@
       </footer>
     </div>
 
-    
+    {% if page.url contains "AESN" %}
     <aside class="right-section" style="
       width: 150px;
       margin-left: 15px;
@@ -213,7 +213,7 @@
     
     </div>
     </aside>
-
+    {% endif %}
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
