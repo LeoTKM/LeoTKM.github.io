@@ -98,7 +98,7 @@ The PID parameters were physcially tuned using a custom 3D base.
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
-        <video style="width: 300px; border-radius: 10px; object-fit: cover;" controls muted>  
+        <video style="width: 300px; border-radius: 10px; object-fit: cover;" controls>  
         <source src="/assets/img/FaceTracker/FaceTrackerLive.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
