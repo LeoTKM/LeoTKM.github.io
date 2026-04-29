@@ -45,7 +45,19 @@ layout: default
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           A 2 DoF pan-tilt camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
         </h5>
-        
+        <!-- <div style="display: flex; gap: 2px; align-items: center; margin-top: 20px; padding-left:10px">
+  <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
+  
+  <div title="Fusion" style="width: 12px; height: 12px; background-color: rgb(217, 237, 37); border-radius: 2px; flex-shrink: 0;"></div>
+  
+  <div title="C/C++" style="width: 12px; height: 12px; background-color: #e2accd; border-radius: 2px; flex-shrink: 0;"></div>
+  
+  <div title="Python" style="width: 12px; height: 12px; background-color: #a261e2; border-radius: 2px; flex-shrink: 0;"></div>
+  
+  <div title="OpenCV" style="width: 12px; height: 12px; background-color: #7f31cd; border-radius: 2px; flex-shrink: 0;"></div>
+  
+  <div title="Linux" style="width: 12px; height: 12px; background-color: #ef8686; border-radius: 2px; flex-shrink: 0;"></div>
+</div> -->
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
       
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
