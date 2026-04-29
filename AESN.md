@@ -45,7 +45,9 @@ layout: default
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           A 2 DoF pan-tilt camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
         </h5>
+        
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+      
           <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Under Development</h6>
           </div>
@@ -121,10 +123,16 @@ layout: default
           <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
           </div>
+          <div title="Fusion" style="width: 12px; height: 12px; background-color:rgb(217, 237, 37); border-radius: 2px;">
+          </div>
+          
 
           <div title="USB" style="width: 12px; height: 12px; background-color:rgb(70, 184, 35); border-radius: 2px;"></div>
 
           <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
+
+          <div title="C" style="width: 12px; height: 12px; background-color: #e2accd; border-radius: 2px;"></div>
+
 
     
         </div>
@@ -217,7 +225,7 @@ layout: default
         </h5>
         <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;"></div>
-          <div title="NMEA" style="width: 12px; height: 12px; background-color: rgb(108, 252, 159); border-radius: 2px;"></div>
+          <div title="NMEA" style="width: 12px; height: 12px; background-color: rgb(83, 143, 66); border-radius: 2px;"></div>
           <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
         </div>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
