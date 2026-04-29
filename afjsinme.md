@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div style="margin-top:150px">
+<div style="margin-top:50px">
 <style>
     .typewriter h1 {
         font-family: monospace;
