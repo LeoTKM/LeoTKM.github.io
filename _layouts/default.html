@@ -68,54 +68,16 @@
         "><h3>School</h3></a>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <!--
-        <div style="position: relative; width: 200px; height: 200px; align-items:centre;">
-      
-          <img id="currentImage" src="/assets/img/NAS.png" alt="Display" style="border-radius: 20px; width: 100%; height: 100%; object-fit: cover;">
-          
-          <img src="assets/img/dropdown.png" alt="Previous" 
-               style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%) rotate(90deg); width: 20px; opacity: 1; cursor: pointer; filter: brightness(0) invert(1);" 
-               onclick="previousImage()">
-          
-          <img src="assets/img/dropdown.png" alt="Next" 
-               style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%) rotate(-90deg); width: 20px; opacity: 1; cursor: pointer; filter: brightness(0) invert(1);" 
-               onclick="nextImage()">
-      </div>
-      
-      <script>
-      let currentIndex = 0;
-      const images = [
-          "/assets/img/BusinessCard/BusinessReal.jpeg",
-          "/assets/img/NAS.png", 
-          "/assets/img/UBC/GPS-V2.png",
-          "/assets/img/Steno/Testing.png",
-          "assets/img/UTAT/RelayPCB.png"
-          // Add all your image paths here
-      ];
-      
-      function showImage(index) {
-          const imageElement = document.getElementById('currentImage');
-          imageElement.src = images[index];
-          currentIndex = index;
-      }
-      
-      function nextImage() {
-          currentIndex = (currentIndex + 1) % images.length;
-          showImage(currentIndex);
-      }
-      
-      function previousImage() {
-          currentIndex = (currentIndex - 1 + images.length) % images.length;
-          showImage(currentIndex);
-      }
-      </script>-->
       </header>
+    
+      
       <section>
         
       {{ content }}
 
       </section>
-      
+
+
 
       <footer>
         {% if site.github.is_user_page %}
@@ -129,16 +91,17 @@
         </p>
         {% endif %}
       </footer>
+
     </div>
 
     {% if page.url contains "AESN" %}
-    <aside class="right-section" style="
+    <section>
+    <!-- <aside class="right-section" style="
       width: 150px;
       margin-left: 15px;
-      position: fixed;    /* This makes it stay put when scrolling */
-      top: 70px;
-      right: 15px;
-    ">
+      position: sticky; top: 
+      70px;
+    "> -->
     <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 20px; padding-left: 10px; font-family: sans-serif;">
   
       <div style="display: flex; align-items: center; gap: 10px;">
@@ -222,8 +185,11 @@
       </div>
     
     </div>
-    </aside>
+
+    <!-- </aside> -->
+  </section>
     {% endif %}
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
