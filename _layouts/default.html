@@ -95,13 +95,14 @@
     </div>
 
     {% if page.url contains "AESN" %}
-    <section>
-    <!-- <aside class="right-section" style="
+    <!-- <section>/ -->
+    <aside class="right-section" style="
       width: 150px;
       margin-left: 15px;
-      position: sticky; top: 
-      70px;
-    "> -->
+      align-self: flex-start;
+      position: sticky;
+      top: 70px;
+    ">
     <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 20px; padding-left: 10px; font-family: sans-serif;">
   
       <div style="display: flex; align-items: center; gap: 10px;">
@@ -186,8 +187,8 @@
     
     </div>
 
-    <!-- </aside> -->
-  </section>
+    </aside>
+  <!-- </section> -->
     {% endif %}
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

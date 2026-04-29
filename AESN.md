@@ -131,6 +131,7 @@ layout: default
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           This is my personal project where I designed a steno keyboard from scratch.
         </h5>
+        
         <div style="display: flex; gap: 2px; margin-top: 20px; align-items: center; padding-left:10px">
           <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px;"></div>
           <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;">
