@@ -49,6 +49,11 @@ layout: default
   <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
   
   <div title="Fusion" style="width: 12px; height: 12px; background-color: rgb(217, 237, 37); border-radius: 2px; flex-shrink: 0;"></div>
+
+  <div title="SPI" style="width: 12px; height: 12px; background-color:rgb(84, 126, 72); border-radius: 2px;"></div>
+  
+  <div title="ROS2" style="width: 12px; height: 12px; background-color:#075fb1; border-radius: 2px;"></div>
+  
   
   <div title="C/C++" style="width: 12px; height: 12px; background-color: #e2accd; border-radius: 2px; flex-shrink: 0;"></div>
   
