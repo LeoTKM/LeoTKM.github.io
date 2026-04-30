@@ -6,7 +6,7 @@ layout: default
 <!-- <h1> Experiences </h1> -->
 <div style="display: flex; flex-wrap:wrap">
 
-
+<!-- Face Tracker -->
   <div style="
     display: flex;
     border-radius: 8px;
@@ -97,7 +97,7 @@ layout: default
   </div>
 
 
-
+<!-- Stenokeyboard -->
 
   <div style="
     display: flex;
