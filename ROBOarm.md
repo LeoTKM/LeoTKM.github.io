@@ -39,7 +39,7 @@ I designed an 8:1 cycloidal drive using Fusion to increase torque from the motor
         </figure>
     </div>
 </div>
-<figcaption style="margin-top: 8px; color: #666; text-align: center">Figure 2: An 8:1 cycloidal drive</figcaption>
+<figcaption style="margin-top: 8px; color: #666; text-align: center">Figure 2: Custom 8:1 cycloidal drive</figcaption>
 
 
 <!-- - ROS2
