@@ -61,7 +61,7 @@
       margin: 0;
     ">
       <img 
-        src="/assets/img/RoboticARMdemo.webp" 
+        src="/assets/img/RoboticArm/RoboticArmCAD.jpg" 
         alt="Description"
         style="
           width: 100%;

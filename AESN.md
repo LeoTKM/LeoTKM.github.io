@@ -6,6 +6,158 @@ layout: default
 <!-- <h1> Experiences </h1> -->
 <div style="display: flex; flex-wrap:wrap">
 
+<!-- RVL Lab -->
+  <div style="
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    background: rgba(255, 252, 226, 0.96);
+    /* background: white ; */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 220px;
+    position: relative;
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./RVLLAB" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+      <div style="height: 100%;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          RVL Lab
+        </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>May 2026 - </i>
+        </div>
+        <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
+          Summer research experience at the Robot Vision and Learning (RVL) lab, led by Prof. Florian Shkurti.
+        </h5>
+        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+      
+          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">Ongoing</h6>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="/assets/img/RVL_Robot.webp" 
+        alt="Description"
+        style="
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+  
+
+
+
+
+<!-- 6 DoF Robotics Arm -->
+  <div style="
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    /* background: rgba(191, 222, 247, 0.81); */
+    background: white;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 220px;
+    position: relative;
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./ROBOarm" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+      <div style="height: 100%; display: flex; flex-direction: column;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          Edward 
+        </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>May 2026 - </i>
+        </div>
+        <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
+          A 6 DoF robotic arm "Edward", integrating motion control using MATLAB, C, and Python along with ROS2. 
+        </h5>
+
+        <!-- <div style="display: flex; gap: 2px; align-items: center; margin-top: 20px; padding-left:10px">
+          <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
+        </div> -->
+        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+      
+          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">Under Development</h6>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="/assets/img/RoboticArm/RoboticArmCAD.jpg" 
+        alt="Description"
+        style="
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+  
+
+
 <!-- Face Tracker -->
   <div style="
     display: flex;
@@ -35,17 +187,17 @@ layout: default
       z-index: 2;
     ">
     
-      <div style="height: 100%;">
+      <div style="height: 100%; display: flex; flex-direction: column;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
           Face Tracker
         </h2>
         <div style = "margin:0; padding-top: 4px; padding-left:10px">
-          <i>Jan 2026 - </i>
+          <i>Feb 2026 - May 2026</i>
         </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           A 2 DoF pan-tilt camera, mounted with chips implementing a face detection algorithm, along with DCMI and USB interfaces.
         </h5>
-        <!-- <div style="display: flex; gap: 2px; align-items: center; margin-top: 20px; padding-left:10px">
+        <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
   <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
   
   <div title="Fusion" style="width: 12px; height: 12px; background-color: rgb(217, 237, 37); border-radius: 2px; flex-shrink: 0;"></div>
@@ -54,21 +206,18 @@ layout: default
   
   <div title="ROS2" style="width: 12px; height: 12px; background-color:#075fb1; border-radius: 2px;"></div>
   
-  
-  <div title="C/C++" style="width: 12px; height: 12px; background-color: #e2accd; border-radius: 2px; flex-shrink: 0;"></div>
-  
   <div title="Python" style="width: 12px; height: 12px; background-color: #a261e2; border-radius: 2px; flex-shrink: 0;"></div>
   
   <div title="OpenCV" style="width: 12px; height: 12px; background-color: #7f31cd; border-radius: 2px; flex-shrink: 0;"></div>
   
   <div title="Linux" style="width: 12px; height: 12px; background-color: #ef8686; border-radius: 2px; flex-shrink: 0;"></div>
-</div> -->
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+</div>
+        <!-- <div style="display: flex; flex-wrap: wrap; margin-top: 15px;"> -->
       
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Under Development</h6>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
       </div>
     </a>
 
@@ -84,7 +233,7 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/FaceTracker/FaceTrackPID.png" 
+        src="/assets/img/FaceTracker/FaceTrackPID.jpg" 
         alt="Description"
         style="
           width: 100%;
@@ -333,6 +482,135 @@ layout: default
 
 
 
+<!--UBC Rocket-->
+<div style="display: flex">
+  <div style="
+    flex: 1;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    /* background: rgba(255, 252, 226, 0.96); */
+    background: white ;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 84px;
+    position: relative;
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
+    margin-right: 10px
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./UBCRocket.html" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+      <div style="height: 100%;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          UBC Rocket
+        </h2>
+        <!-- <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>May 2025</i>
+        </div> -->
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="assets/img/UBC/UBCRocketsLogo.png" 
+        alt="Description"
+        style="
+          height: 80%;
+          object-fit: cover;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+  
+
+  <!--UTAT-->
+  <div style="
+    flex: 1;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    /* background: rgba(255, 252, 226, 0.96); */
+    background: white ;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 84px;
+    position: relative;
+    border: 3px solid;
+    border-color: rgba(213, 213, 213, 0.5);
+    margin-left:10px
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./UTAT.html" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+      <div style="height: 100%;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          UTAT Rocketry
+        </h2>
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="assets/img/UTAT/UTAT_logo.png" 
+        alt="Description"
+        style="
+          height: 80%;
+          object-fit: cover;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+</div>
+
+
+
+<!-- NAS -->
   <div style="
     display: flex;
     border-radius: 8px;
@@ -369,15 +647,6 @@ layout: default
           Solved latency issues and tedious authentication and complicated navigation.
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-          <!-- <div style="border-radius: 20px; height: 25px; padding: 0 8px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; margin: 3px">
-          <h6 style="margin: 0">Personal Project</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-          <h6 style="margin: 0">Raspberry Pi</h6>
-          </div>
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Linux</h6>
-          </div> -->
         </div>
       </div>
     </a>
@@ -408,72 +677,9 @@ layout: default
   
 </div>
 
-<!-- <div style = "margin-top: 20px"></div>
-  <div>
-  <a href="./steno.html" style="display: block; 
-    background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%,rgb(247, 223, 105) 100%);
-    padding: 10px; 
-    border-radius: 8px; 
-    color: inherit; 
-    margin-top: 10px; 
-    width: 100%;
-    text-decoration: none; 
-  ">
-  <h3>Stenokeyboard</h3>
-  <p> Stenokeyboards often offer faster typing speed</p>
-  </a>
-  </div> -->
 
 
-
-
-<!--   
-  <div>
-  <a href="./sam-m10q.html" style="display: block; 
-    background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%,rgb(145, 234, 144) 100%);
-    padding: 10px; 
-    border-radius: 8px; 
-    color: inherit; 
-    margin-top: 10px; 
-    width: 100%;
-    text-decoration: none; 
-  ">
-    <h3>SAM M10Q GNSS Module</h3>
-    <p> UBC project </p>
-  </a>
-  </div>
-
-   <div>
-  <a href="./business.html" style="display: block; 
-    background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%);
-    padding: 10px; 
-    border-radius: 8px; 
-    color: inherit; 
-    margin-top: 10px; 
-    width: 100%;
-    text-decoration: none; 
-  ">
-  <h3>Business Card V2</h3>
-  <p> My own business card </p>
-  </a>
-  </div>
-
-  <div>
-  <a href="./nas-page.html" style="display: block; 
-    background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%,rgb(145, 234, 144) 100%);
-    padding: 10px; 
-    border-radius: 8px; 
-    color: inherit; 
-    margin-top: 10px; 
-    width: 100%;
-    text-decoration: none; 
-  ">
-  <h3>NAS</h3>
-  <p> Software that supports file sharing often comes with latency issues and tedious authentication and complicated navigation. </p>
-  </a>
-  </div> -->
-
-<div style="display: flex;">
+<!-- <div style="display: flex;">
 <div style="border: 2px solid #ccc; padding: 10px; border-radius: 8px; display: inline-block; margin-top: 20px; width: 50%; margin-right: 10px;  background-color: white;">
   <a href="./UBCRocket.html">
     <img src="assets/img/UBC/UBCRocketsLogo.png" alt="UBC Rocket" style="width: 100%;">
@@ -487,24 +693,7 @@ layout: default
     <h3>UTAT - Sep 2024</h3>
   </a>
   <!-- <p style="padding-bottom: 10 px"> Mobile app built with React Native </p> -->
-</div>
-</div>
-<!-- 
-<div style="margin-top: 20px;"></div>
-<h1> Intern </h1>
-<div style = "margin-top: 20px"></div>
-  <div>
-  <a href="./shipyard.html" style="display: block; 
-    background-image: linear-gradient(to right, #f0f0f0 0%, #f0f0f0 100%, rgb(145, 234, 144) 100%);
-    padding: 10px; 
-    border-radius: 8px; 
-    color: inherit; 
-    margin-top: 10px; 
-    width: 100%;
-    text-decoration: none; 
-  ">
-  <h3> West Coast at Cost </h3>
-  <p> Technician Assistant </p>
-  </a>
-  </div>
-   -->
+<!-- </div> -->
+<!-- </div> -->
+
+
