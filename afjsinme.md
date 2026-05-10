@@ -36,7 +36,12 @@ layout: default
 <div style="display: flex;">
 <img src="/assets/img/Map.png" alt="Map" style="flex-shrink: 0; width: 300px; height: 300px; border-radius: 10px;">
 <!-- <h4 style="margin-left: 15px">I am also an Electrical member for the University of Toronto Aerospace Team</h4> -->
-<h4 style="margin-left: 15px">I am also an Electrical member for the <i><a href="https://www.utat.ca/" style="color:rgb(53, 119, 178);">University of Toronto Aerospace Team</a></i></h4>
+<h4 style="margin-left: 15px">I am also an Electrical member for the <i><a href="https://www.utat.ca/" style="color:rgb(53, 119, 178);">University of Toronto Aerospace Team</a></i>
+
+<div style="margin-top: 5px"></div>
+This summer, I'm conducting research at the <i><a href="https://rvl.cs.toronto.edu/" style="color:rgb(197, 153, 31);">RVL Lab</a></i> led by Prof. Florian Shkurti
+</h4>
+
 </div>
 </div>
 
