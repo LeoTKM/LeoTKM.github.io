@@ -144,7 +144,7 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/RoboticArm/RoboticArmCAD.jpg" 
+        src="/assets/img/RoboticArm/RoboticArmCAD.png" 
         alt="Description"
         style="
           width: 100%;

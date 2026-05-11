@@ -16,7 +16,7 @@ This is a 6 DoF robotic arm.
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
-        <img src="/assets/img/RoboticArm/RoboticArmCAD.jpg" alt="TrackerSchematic" style="width: 450px; border-radius: 10px;">
+        <img src="/assets/img/RoboticArm/RoboticArmCAD.png" alt="TrackerSchematic" style="width: 450px; border-radius: 10px;">
         <figcaption style="margin-top: 8px; color: #666;">Figure 1: The robotic arm, designed using Fusion</figcaption>
     </figure>
 </div>
