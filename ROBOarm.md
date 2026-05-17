@@ -11,8 +11,6 @@ layout: default
 <div style="margin-bottom:10px"></div>
 This is a 6 DoF robotic arm.
 
-*The development cycle for this project was shorter than for the camera tracker project, since many of the skills had already been developed and tested earlier.*
-
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
@@ -41,7 +39,13 @@ I designed an 8:1 cycloidal drive using Fusion to increase torque from the motor
 </div>
 <figcaption style="margin-top: 8px; color: #666; text-align: center">Figure 2: Custom 8:1 cycloidal drive</figcaption>
 
-
+<div style="margin-top:20px"></div>
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/RoboticArm/DesignArch.JPG" alt="RoboArmSchematic" style="width: 550px; border-radius: 10px;">
+        <figcaption style="margin-top: 8px; color: #666;">Figure 3: The design architecture</figcaption>
+    </figure>
+</div>
 <!-- - ROS2
 - C, Python
 - PID

@@ -1,4 +1,4 @@
-<!-- 6 DoF Robotics Arm -->
+
   <div style="
     display: flex;
     border-radius: 8px;
@@ -16,7 +16,7 @@
   ">
 
   <!-- Left Box - Text Content -->
-    <a href="./RVLLAB" style="
+    <a href="./sam-m10q.html" style="
       text-decoration: none;
       color: inherit;
       width: 50%;
@@ -26,25 +26,21 @@
       position: relative;
       z-index: 2;
     ">
-      <div style="height: 100%;">
+      <div style="height: 100%;  display: flex; flex-direction: column;">
         <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
-          Edward 
+          SAM M10Q GNSS
         </h2>
         <div style = "margin:0; padding-top: 4px; padding-left:10px">
-          <i>Jun 2026 - </i>
+          <i>Jul 2025 - Aug 2025</i>
         </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          A 6 DoF robotic arm "Edward", integrating motion control using MATLAB, C, and Python along with ROS2. 
+          Built a GNSS receiver to provide location to the rocket at UBC Rocket 
         </h5>
 
-        <!-- <div style="display: flex; gap: 2px; align-items: center; margin-top: 20px; padding-left:10px">
-          <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
-        </div> -->
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-      
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Under Development</h6>
-          </div>
+        <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
+          <div title="Altium" style="width: 12px; height: 12px; background-color:rgb(235, 203, 22); border-radius: 2px;"></div>
+          <div title="NMEA" style="width: 12px; height: 12px; background-color: rgb(83, 143, 66); border-radius: 2px;"></div>
+          <div title="STM32" style="width: 12px; height: 12px; background-color: #007bff; border-radius: 2px;"></div>
         </div>
       </div>
     </a>
@@ -61,7 +57,7 @@
       margin: 0;
     ">
       <img 
-        src="/assets/img/RoboticArm/RoboticArmCAD.jpg" 
+        src="/assets/img/UBC/GPS-V2.png" 
         alt="Description"
         style="
           width: 100%;
@@ -72,81 +68,3 @@
       >
     </div>
   </div>
-  
-
-
-<!-- RVL Lab -->
-  <div style="
-    display: flex;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-top: 20px;
-    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    /* background: rgba(191, 222, 247, 0.81); */
-    background: white;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    height: 220px;
-    position: relative;
-    border: 3px solid;
-    border-color: rgba(213, 213, 213, 0.5);
-  ">
-
-  <!-- Left Box - Text Content -->
-    <a href="./RVLLAB" style="
-      text-decoration: none;
-      color: inherit;
-      width: 50%;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      z-index: 2;
-    ">
-      <div style="height: 100%;">
-        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
-          RVL Lab
-        </h2>
-        <div style = "margin:0; padding-top: 4px; padding-left:10px">
-          <i>May 2026 - </i>
-        </div>
-        <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          Summer research experience at the Robot Vision and Learning (RVL) lab, led by Prof. Florian Shkurti.
-        </h5>
-
-        <!-- <div style="display: flex; gap: 2px; align-items: center; margin-top: 20px; padding-left:10px">
-          <div title="Personal Project" style="width: 12px; height: 12px; background-color: #ff4d4d; border-radius: 2px; flex-shrink: 0;"></div>
-        </div> -->
-        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
-      
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">Ongoing</h6>
-          </div>
-        </div>
-      </div>
-    </a>
-
-  <!-- Right Box - Image -->
-      <div style="
-        height: 100%;
-        width: 50%;
-        display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0px;
-      padding-right: 16px;
-      margin: 0;
-    ">
-      <img 
-        src="/assets/img/RVL_Robot.webp" 
-        alt="Description"
-        style="
-          width: 100%;
-          height: 80%;
-          object-fit: cover;
-          border-radius: 8px;
-        "
-      >
-    </div>
-  </div>
-  
