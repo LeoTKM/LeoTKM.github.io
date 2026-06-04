@@ -113,10 +113,11 @@ This project integrates multiple ROS2 topics, services and custom msg & srv type
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
-        <img src="/assets/img/FaceTracker/ROS2.jpg" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
+        <img src="/assets/img/FaceTracker/ROS2.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
         <figcaption style="margin-top: 0px; color: #666;">Figure 3: ROS2 structure</figcaption>
     </figure>
 </div>
+
 <div style="margin-top:20px"></div>
 
 <h3 style="margin-bottom:10px; margin-top:10px">PCB Design (In Progress)</h3>  
