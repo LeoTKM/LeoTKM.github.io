@@ -116,7 +116,7 @@ layout: default
           Face Tracker
         </h2>
         <div style = "margin:0; padding-top: 4px; padding-left:10px">
-          <i>Feb 2026 - May 2026</i>
+          <i>Mar 2026 - Jun 2026</i>
         </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
           A 2 DoF pan-tilt face tracking camera with OpenCV vision, a ROS2 architecture and tuned PID loops for precise, real-time motion control.
