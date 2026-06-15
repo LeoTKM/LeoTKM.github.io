@@ -127,5 +127,23 @@ I’m using a DRV8825 motor driver for the motors, but the board uses a potentio
 In addition, I need to power both the Pi and the motors, so I will need a proper power distribution solution. With that in mind, I plan to move to a custom 4-layer PCB design once PID tuning and ROS2 are integrated into the system.
 
 <div style="margin-top:20px"></div>
+
+<h3 style="margin-bottom:10px; margin-top:10px">Final Product </h3> 
+
+Some potential improvements for the next iteration would be switching from OpenCV to a YOLO model, since YOLO is always more reliable for face detection.
+
+I would also upgrade to a Raspberry Pi with more RAM. This current version only has 2 GB, as a result, the face detection works well when the system isn't under much load, but it starts to struggle once ROS 2, motor control, and other processes are all running at the same time. A more powerful Pi would definitely help.
+
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <video style="border-radius: 10px; width: 340px" controls>
+        <source src="/assets/img/FaceTracker/FaceTrackerFinalProduct.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 8px; color: #666;">Figure 5: The final product</figcaption>
+    </figure>
+</div>
+
+<div style="margin-top:20px"></div>
 [Back](./AESN.html)
 
