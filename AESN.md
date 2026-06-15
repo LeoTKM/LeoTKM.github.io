@@ -157,7 +157,7 @@ layout: default
       margin: 0;
     ">
       <img 
-        src="/assets/img/FaceTracker/ROS2.png" 
+        src="/assets/img/FaceTracker/FrontPage.jpg" 
         alt="Description"
         style="
           width: 100%;
