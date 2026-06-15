@@ -132,7 +132,7 @@ In addition, I need to power both the Pi and the motors, so I will need a proper
 Iterated hardware designs using Fusion 360.
 <div style="margin-top:10px; text-align: center;">
     <figure style="margin: 0;">
-        <video style="border-radius: 10px; width: 340px" controls>
+        <video style="border-radius: 10px; width: 450px" controls>
         <source src="/assets/img/FaceTracker/Hardware.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
