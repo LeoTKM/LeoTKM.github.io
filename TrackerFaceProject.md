@@ -130,7 +130,7 @@ In addition, I need to power both the Pi and the motors, so I will need a proper
 
 <h3 style="margin-bottom:10px; margin-top:10px">Hardware Design </h3> 
 Iterated hardware designs using Fusion 360.
-<div style="margin-top:10px; text-align: center;">
+<div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <video style="border-radius: 10px; width: 450px" controls>
         <source src="/assets/img/FaceTracker/Hardware.mp4" type="video/mp4">
