@@ -128,6 +128,21 @@ In addition, I need to power both the Pi and the motors, so I will need a proper
 
 <div style="margin-top:20px"></div>
 
+<h3 style="margin-bottom:10px; margin-top:10px">Hardware Design </h3> 
+Iterated hardware designs using Fusion 360.
+<div style="margin-top:10px; text-align: center;">
+    <figure style="margin: 0;">
+        <video style="border-radius: 10px; width: 340px" controls>
+        <source src="/assets/img/FaceTracker/Hardware.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 8px; color: #666;">Figure 4: Hardware design</figcaption>
+    </figure>
+</div>
+
+
+<div style="margin-top:20px"></div>
+
 <h3 style="margin-bottom:10px; margin-top:10px">Final Product </h3> 
 
 Some potential improvements for the next iteration would be switching from OpenCV to a YOLO model, since YOLO is always more reliable for face detection.
