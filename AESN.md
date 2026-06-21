@@ -6,14 +6,15 @@ layout: default
 <!-- <h1> Experiences </h1> -->
 <div style="display: flex; flex-wrap:wrap">
 
-<!-- RVL Lab -->
+
+<!-- Edward -->
   <div style="
     display: flex;
     border-radius: 8px;
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(255, 252, 226, 0.96);
+    background: rgb(255, 255, 255);
     /* background: white ; */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -21,6 +22,89 @@ layout: default
     position: relative;
     border: 3px solid;
     border-color: rgba(213, 213, 213, 0.5);
+  ">
+
+  <!-- Left Box - Text Content -->
+    <a href="./Edward" style="
+      text-decoration: none;
+      color: inherit;
+      width: 50%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 2;
+    ">
+    
+      <div style="height: 100%; display: flex; flex-direction: column;">
+        <h2 style="margin: 0; padding-top: 10px; padding-left:10px">
+          Arm Edward
+        </h2>
+        <div style = "margin:0; padding-top: 4px; padding-left:10px">
+          <i>Jun 2026 - Jun 2026</i>
+        </div>
+        <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
+          Leader-follower teleoperation setup with SO101 arms. Trained an Pi0 policy on a custom dataset and fine-tuned using HIL for tabletop cleaning tasks.
+        </h5>
+        <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
+      
+          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">In progress</h6>
+          </div> -->
+          </div>
+          
+
+          <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
+            <div title="AI/ML" style="width: 12px; height: 12px; background-color: #f77626; border-radius: 2px; flex-shrink: 0;"></div>
+            <div title="MacOS" style="width: 12px; height: 12px; background-color: #f36f6f; border-radius: 2px; flex-shrink: 0;"></div>
+          </div>
+        <!-- </div> -->
+      </div>
+    </a>
+
+  <!-- Right Box - Image -->
+      <div style="
+        height: 100%;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      padding-right: 16px;
+      margin: 0;
+    ">
+      <img 
+        src="/assets/img/RoboticArm/SO101_setup.jpg" 
+        alt="Description"
+        style="
+          width: 100%;
+          height: 80%;
+          object-fit: cover;
+          object-position: center top;
+          border-radius: 8px;
+        "
+      >
+    </div>
+  </div>
+  
+
+
+
+<!-- RVL Lab -->
+  <div style="
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
+    background: rgba(252, 254, 204, 0.8);
+    /* background: white ; */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 220px;
+    position: relative;
+    border: 3px solid;
+    border-color: rgba(208, 208, 208, 0.5);
   ">
 
   <!-- Left Box - Text Content -->
@@ -42,11 +126,11 @@ layout: default
           <i>May 2026 - </i>
         </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          Summer research experience at the Robot Vision and Learning (RVL) lab, led by Prof. Florian Shkurti.
+          Research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti.
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
       
-          <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+          <div style="margin: 3px; border-radius: 20px; height: 25px; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
             <h6 style="margin: 0">Ongoing</h6>
           </div>
         </div>
@@ -130,9 +214,9 @@ layout: default
   
   <div title="ROS2" style="width: 12px; height: 12px; background-color:#075fb1; border-radius: 2px;"></div>
   
-  <div title="Python" style="width: 12px; height: 12px; background-color: #a261e2; border-radius: 2px; flex-shrink: 0;"></div>
+  <div title="Python" style="width: 12px; height: 12px; background-color: #bf91ee; border-radius: 2px; flex-shrink: 0;"></div>
   
-  <div title="OpenCV" style="width: 12px; height: 12px; background-color: #7f31cd; border-radius: 2px; flex-shrink: 0;"></div>
+  <div title="OpenCV" style="width: 12px; height: 12px; background-color: #a261e2; border-radius: 2px; flex-shrink: 0;"></div>
   
   <div title="Linux" style="width: 12px; height: 12px; background-color: #ef8686; border-radius: 2px; flex-shrink: 0;"></div>
 </div>
