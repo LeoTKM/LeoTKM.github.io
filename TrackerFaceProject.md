@@ -133,7 +133,7 @@ Iterated hardware designs using Fusion 360.
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <video style="border-radius: 10px; width: 450px" controls>
-        <source src="/assets/img/FaceTracker/Hardware.mp4" type="video/mp4">
+        <source src="/assets/img/FaceTracker/Hardware.MP4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
         <figcaption style="margin-top: 8px; color: #666;">Figure 4: Hardware design</figcaption>
