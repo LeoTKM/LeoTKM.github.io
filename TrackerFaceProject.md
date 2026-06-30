@@ -71,7 +71,7 @@ Programming was done using SSH and VSCode.
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
-        <img src="/assets/img/FaceTracker/FaceTrackSSH.png" alt="TrackerSchematic" style="width: 450px; border-radius: 10px;">
+        <img src="/assets/img/FaceTracker/FaceTrackSSH.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
         <figcaption style="margin-top: 8px; color: #666;">Figure 1: SSH on VSCode, testing the processor and camera nodes</figcaption>
     </figure>
 </div>
@@ -132,7 +132,7 @@ In addition, I need to power both the Pi and the motors, so I will need a proper
 Iterated hardware designs using Fusion 360.
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
-        <video style="border-radius: 10px; width: 450px" controls>
+        <video style="border-radius: 10px; width: 540px" controls>
         <source src="/assets/img/FaceTracker/Hardware.MP4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
