@@ -14,7 +14,7 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgb(255, 255, 255);
+    background: rgba(194, 27, 27, 0.09);
     /* background: white ; */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
