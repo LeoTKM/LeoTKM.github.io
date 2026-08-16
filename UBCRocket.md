@@ -12,7 +12,7 @@ layout: default
 
 I had four awesome months at UBC Rocket, where I participated in two projects and a test launch in Oregon. I was responsible for soldering components at first and gradually took on some harder tasks such as PCB design, and firmware programming. 
 
-Over the following weeks, I used Altium to create my own boards, including one made for UBC <a href="./sam-m10q.html">SAM M10Q GNSS Module</a>. I programmed and tested it using a STM32 Nucleo board via UART and it was successfully flown with the rocket at the 2025 Launch Canada competition.
+Over the following weeks, I used Altium to create my own boards, including one made for UBC <i><a href="./sam-m10q.html" style="color:rgb(68, 143, 218);">SAM M10Q GNSS Module</a></i>. I programmed and tested it using a STM32 Nucleo board via UART and it was successfully flown with the rocket at the 2025 Launch Canada competition.
 <div style="margin-bottom: 30px;"></div>
 
 ### Soldering
