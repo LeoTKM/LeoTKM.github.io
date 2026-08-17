@@ -14,7 +14,7 @@ layout: default
     overflow: hidden;
     margin-top: 20px;
     /* box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2); */
-    background: rgba(194, 27, 27, 0.09);
+    background: rgba(194, 27, 27, 0.04);
     /* background: white ; */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -44,21 +44,17 @@ layout: default
           <i>Aug 2026 - </i>
         </div>
         <h5 style="padding: 0 10px; padding-top: 15px; margin: 0">
-          RL trained bipedal robot servant inspired by BD-X. Performs navigation soley using external sensor inputs and runs room cleaning tasks with a separately fine-tuned VLA policy.
+          A RL trained bipedal robot servant inspired by BD-X. 
+          
+          <!-- Performs navigation soley using external sensor inputs and runs room cleaning tasks with a separately fine-tuned VLA policy. -->
         </h5>
         <div style="display: flex; flex-wrap: wrap; margin-top: 15px;">
       
-          <!-- <div style="margin: 3px; border-radius: 20px; height: 25px; border-style: solid; border-width: 2px; border-color: white; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
-            <h6 style="margin: 0">In progress</h6>
-          </div> -->
+          <div style="margin: 3px; border-radius: 20px; height: 25px; display: flex; align-items: center; justify-content: center; padding: 0 8px;">
+            <h6 style="margin: 0">In Progress</h6>
           </div>
+        </div>
           
-
-          <!-- <div style="display: flex; gap: 2px; padding-bottom: 16px; margin-top: auto;align-items: center; padding-left:10px">
-            <div title="AI/ML" style="width: 12px; height: 12px; background-color: #f77626; border-radius: 2px; flex-shrink: 0;"></div>
-            <div title="MacOS" style="width: 12px; height: 12px; background-color: #f36f6f; border-radius: 2px; flex-shrink: 0;"></div>
-          </div> -->
-        <!-- </div> -->
       </div>
     </a>
 

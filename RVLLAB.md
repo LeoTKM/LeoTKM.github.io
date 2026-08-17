@@ -9,7 +9,7 @@ layout: default
 <!-- c, python, opencv, PID, Altium, i2c, ROS2, MATLAB? -->
 
 <div style="margin-bottom:10px"></div>
-Summer research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti. I worked on a force-aware VLA project, where I designed and integrated a custom UMI-style gripper and real-time teleoperation system. This setup allowed us to perform and collect contact rich manipulation data for the training datasets. 
+Summer research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti. I designed and integrated a custom UMI-style gripper and a real-time teleoperation system to support force-aware VLA experiments. This setup allowed us to perform and collect contact rich manipulation data for the training datasets. 
 
 <!-- Teleop -->
 <h3 style="margin-bottom:10px; margin-top:20px">Teleoperation Arm</h3>  
@@ -22,8 +22,7 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 <h3 style="margin-bottom:10px; margin-top:20px">CoinFT Replication</h3> 
 <i><a href="https://coin-ft.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
 
-6DoF sensors on the market were too large for our custom UMI-style gripper, and others in the lab had reported reading inaccuracies with existing tactile sensors. As a result, we chose CoinFT.
-
+6DoF FT sensors on the market were too large for our custom UMI-style gripper and tactile sensors have reportedly been difficult to work with. As a result, we chose CoinFT.
 
 <!-- We decided to build a custom UMI style gripper, and one of the most important advantages of UMI was the minimal emboidment gap, ie. the model needs to think that the data of human operating the UMI were from the actual robotic arm. The Flexiv Rizon came with sensors for wrench at the end effector, and it's important that the UMI couterpart can also somehow sense and relay a similar snesory input to the processor. Papers have shown that you can infer the measurements for the TCP wrench with using torque/force data collected at the finger tips. 6DoF FT sensors on the market -->
 
@@ -71,7 +70,7 @@ Managed the procurement of $1,500+ in lab equipment.
 </div>
 
 <!-- Paper -->
-<h3 style="margin-bottom:10px; margin-top:20px">Force VLA Paper</h3>  
+<!-- <h3 style="margin-bottom:10px; margin-top:20px">Force VLA Paper</h3>   -->
 
 
 <div style="margin-top:20px"></div>
