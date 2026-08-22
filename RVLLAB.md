@@ -24,6 +24,13 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 6DoF FT sensors on the market were too large for our custom UMI-style gripper and tactile sensors have reportedly been difficult to work with. As a result, we chose CoinFT.
 
+
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/RVL/CoinFT.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
+        <figcaption style="margin-top: 0px; color: #666;">Figure 1: Left: During fabrication. Right: Calibration setup</figcaption>
+    </figure>
+</div>
 <!-- We decided to build a custom UMI style gripper, and one of the most important advantages of UMI was the minimal emboidment gap, ie. the model needs to think that the data of human operating the UMI were from the actual robotic arm. The Flexiv Rizon came with sensors for wrench at the end effector, and it's important that the UMI couterpart can also somehow sense and relay a similar snesory input to the processor. Papers have shown that you can infer the measurements for the TCP wrench with using torque/force data collected at the finger tips. 6DoF FT sensors on the market -->
 
 
@@ -41,7 +48,7 @@ Flexiv Rizon arms use native grippers known as Grav. The finger structure of Gra
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <img src="/assets/img/RVL/UMI_two.jpg" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
-        <figcaption style="margin-top: 0px; color: #666;">Figure 1: Custom UMI-style gripper</figcaption>
+        <figcaption style="margin-top: 0px; color: #666;">Figure 2: Custom UMI-style gripper</figcaption>
     </figure>
 </div>
 
