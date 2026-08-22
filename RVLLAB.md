@@ -20,6 +20,8 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 <!-- CoinFT -->
 <h3 style="margin-bottom:10px; margin-top:20px">CoinFT Replication</h3> 
+<i><a href="./RVL_CoinFT.html" style="color:rgb(68, 143, 218);">CoinFT</a></i>
+
 <i><a href="https://coin-ft.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
 
 6DoF FT sensors on the market were too large for our custom UMI-style gripper and tactile sensors have reportedly been difficult to work with. As a result, we chose CoinFT.
@@ -43,7 +45,7 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 <i><a href="https://umi-gripper.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
 
-Flexiv Rizon arms use native grippers known as Grav. The finger structure of Grav differs from existing open source/COTS UMI-style gripper (eg. UMI, PIKA). To minimize the embodiment gap, we decided to develop our own custom UMI-style gripper on top of the exisitng teleoperation setup for parallel comparison.
+Flexiv Rizon arms use native grippers known as Grav. The finger structure of Grav differs from existing open source/COTS UMI-style gripper (eg. UMI, PIKA). To minimize the embodiment gap, we decided to develop our own custom UMI-style gripper on top of the exisiting teleoperation setup for comparison.
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">

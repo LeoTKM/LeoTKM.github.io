@@ -27,7 +27,7 @@ layout: default
 The completed system serves as a pair of leader arms currently used in an ongoing lab research project to teleoperate a dual-arm Flexiv Rizon 4S system for force data collection. 
 
 <div style="margin-bottom:10px"></div>
-I developed the entire end-to-end project including CAD design (Fusion & Onshape), implementation of the ROS 2 software stack for low-level Dynamixel servo communication, gravity compensation, a FastAPI interface for sending commands to the follower system, and URDF modeling with accurate mass distribution and inertia properties.
+I developed the end-to-end project including CAD design (Fusion & Onshape), implementation of the ROS 2 software stack for low-level Dynamixel servo communication, gravity compensation, a FastAPI interface for sending commands to the follower system, and URDF modeling with accurate mass distribution and inertia properties.
 
 <div style="margin-top:20px"></div>
 [Back](./RVLLAB)
