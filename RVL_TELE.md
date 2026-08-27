@@ -15,19 +15,22 @@ layout: default
 
 <div style="margin-bottom:10px"></div>
 
-<div style="margin-top:20px; text-align: center;">
-    <figure style="margin: 0;">
-        <img src="/assets/img/RVL/Teleop.jpg" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
-        <figcaption style="margin-top: 8px; color: #666;">Figure 1: The teleoperation arm V2</figcaption>
-    </figure>
-</div>
 
 <div style="margin-bottom:10px"></div>
 
 The completed system serves as a pair of leader arms currently used in an ongoing lab research project to teleoperate a dual-arm Flexiv Rizon 4S system for force data collection. 
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/RVL/Teleop.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
+        <figcaption style="margin-top: 8px; color: #666;">Figure 1: The teleoperation arm V2</figcaption>
+    </figure>
+</div>
+<div style="margin-bottom:20px"></div>
+I developed the end-to-end project including CAD design (Fusion & Onshape), implementation of the ROS 2 software stack for low-level Dynamixel servo communication, gravity compensation, a FastAPI interface for sending commands to the follower system, and URDF modeling with accurate mass distribution and inertia properties.
 
 <div style="margin-bottom:10px"></div>
-I developed the end-to-end project including CAD design (Fusion & Onshape), implementation of the ROS 2 software stack for low-level Dynamixel servo communication, gravity compensation, a FastAPI interface for sending commands to the follower system, and URDF modeling with accurate mass distribution and inertia properties.
+Resolved latency issues, arm jitter, USB overload, and other software-related problems to ensure smooth arm motion through real-time joint states. Meanwhile, designed a two board solution for a single arm to accommodate servos operating at different voltage levels due to component availability constraints and a strict timeline.
+
 
 <div style="margin-top:20px"></div>
 [Back](./RVLLAB)
