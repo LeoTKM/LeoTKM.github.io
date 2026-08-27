@@ -9,7 +9,14 @@ layout: default
 <!-- c, python, opencv, PID, Altium, i2c, ROS2, MATLAB? -->
 
 <div style="margin-bottom:10px"></div>
+
 Summer research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti. I designed and integrated a custom UMI-style gripper and a real-time teleoperation system to support force-aware VLA experiments. This setup allowed us to perform and collect contact rich manipulation data for the training datasets. 
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/RVL/RVL.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
+    </figure>
+</div>
+
 
 <!-- Teleop -->
 <h3 style="margin-bottom:10px; margin-top:20px">Teleoperation Arm</h3>  
@@ -24,7 +31,7 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 <i><a href="https://coin-ft.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
 
-6DoF FT sensors on the market were too large for our custom UMI-style gripper and tactile sensors have reportedly been difficult to work with. As a result, we chose CoinFT.
+6DoF FT sensors on the market were too large for our custom UMI-style gripper and tactile sensors have reportedly been difficult to work with. As a result, I reproduced the CoinFT sensor.
 
 
 <div style="margin-top:20px; text-align: center;">
@@ -41,7 +48,7 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 <!-- Custom UMI -->
 <h3 style="margin-bottom:10px; margin-top:20px">Custom UMI</h3>
-<i><a href="./RVL_UMI.html" style="color:rgb(68, 143, 218);">UMI-Style Gripper</a></i>
+
 
 <i><a href="https://umi-gripper.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
 
