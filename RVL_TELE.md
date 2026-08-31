@@ -37,7 +37,7 @@ Resolved latency issues, arm jitter, USB overload, and other software-related pr
         <source src="/assets/img/RVL/VLA_success.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
-        <figcaption style="margin-top: 8px; color: #666;">Figure 2: Fine-tuned a VLA using π0.5 as the base policy, with 30 demos collected by this teleop setup.</figcaption>
+        <figcaption style="margin-top: 8px; color: #666;">Figure 2: Policy rollout. π0.5 fine-tuned on 30 demos collected with this teleop setup.</figcaption>
     </figure>
 </div>
 
