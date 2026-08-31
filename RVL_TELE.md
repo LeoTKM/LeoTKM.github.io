@@ -31,6 +31,16 @@ I developed the end-to-end project including CAD design (Fusion & Onshape), impl
 <div style="margin-bottom:10px"></div>
 Resolved latency issues, arm jitter, USB overload, and other software-related problems to ensure smooth arm motion through real-time joint states. Meanwhile, designed a two board solution for a single arm to accommodate servos operating at different voltage levels due to component availability constraints and a strict timeline.
 
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <video style="border-radius: 10px; width: 540px" controls>
+        <source src="/assets/img/RVL/VLA_success.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+        <figcaption style="margin-top: 8px; color: #666;">Figure 2: Fine-tuned a VLA using π0.5 as the base policy, with 30 demos collected by this teleop setup.</figcaption>
+    </figure>
+</div>
+
 
 <div style="margin-top:20px"></div>
 [Back](./RVLLAB)
