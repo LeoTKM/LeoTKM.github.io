@@ -11,6 +11,8 @@ layout: default
 <div style="margin-bottom:10px"></div>
 
 Summer research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti. I designed and integrated a custom UMI-style gripper and a real-time teleoperation system to support force-aware VLA experiments. This setup allowed us to perform and collect contact rich manipulation data for the training datasets. 
+
+I also handled procurement of ~$1,500+ in parts for CoinFT and the custom UMI gripper.
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <img src="/assets/img/RVL/RVL_Experience.png" alt="RVL experience" style="width: 540px; border-radius: 10px;">
@@ -76,14 +78,14 @@ Flexiv Rizon arms use native grippers known as Grav. The finger structure of Gra
 
 <div style="margin-top:20px"></div>
 <!-- Hardware Purchase -->
-<h3 style="margin-bottom:10px; margin-top:20px">Hardware Sourcing</h3>  
+<!-- <h3 style="margin-bottom:10px; margin-top:20px">Hardware Sourcing</h3>  
 Managed the procurement of $1,500+ in lab equipment.
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <img src="/assets/img/RVL/HardwareSourcing.png" alt="TrackerSchematic" style="width: 540px; border-radius: 10px;">
         <figcaption style="margin-top: 0px; color: #666;">Figure 1: Purchase</figcaption>
     </figure>
-</div>
+</div> -->
 
 <!-- Paper -->
 <!-- <h3 style="margin-bottom:10px; margin-top:20px">Force VLA Paper</h3>   -->
