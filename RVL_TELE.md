@@ -16,7 +16,6 @@ layout: default
 <div style="margin-bottom:10px"></div>
 
 
-<div style="margin-bottom:10px"></div>
 
 The completed system serves as a pair of leader arms currently used in an ongoing lab research project to teleoperate a dual-arm Flexiv Rizon 4S system for force data collection. 
 <div style="margin-top:20px; text-align: center;">

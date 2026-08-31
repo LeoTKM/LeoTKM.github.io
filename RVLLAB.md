@@ -22,14 +22,14 @@ I also handled procurement of ~$1,500 in parts for CoinFT and the custom UMI gri
 
 
 <!-- Teleop -->
-<h3 style="margin-bottom:10px; margin-top:20px">Teleoperation Arm</h3>  
+<h3 style="margin-top:20px">Teleoperation Arm</h3>  
 <i><a href="./RVL_TELE.html" style="color:rgb(68, 143, 218);">Flexiv-Rizon Teleoperation Arm</a></i>
 
 Designed to teleoperate a pair of Flexiv Rizon 4S arms. 
  
 
 <!-- CoinFT -->
-<h3 style="margin-bottom:10px; margin-top:20px">CoinFT Replication</h3> 
+<h3 style=" margin-top:20px">CoinFT Replication</h3> 
 <i><a href="./RVL_CoinFT.html" style="color:rgb(68, 143, 218);">CoinFT</a></i>
 
 <i><a href="https://coin-ft.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
@@ -50,7 +50,7 @@ Designed to teleoperate a pair of Flexiv Rizon 4S arms.
 
 
 <!-- Custom UMI -->
-<h3 style="margin-bottom:10px; margin-top:20px">Custom UMI</h3>
+<h3 style=" margin-top:20px">Custom UMI</h3>
 
 
 <i><a href="https://umi-gripper.github.io/" style="color:rgb(68, 143, 218);">Original Paper</a></i>
