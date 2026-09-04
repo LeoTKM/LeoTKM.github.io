@@ -33,7 +33,7 @@ Resolved latency issues, arm jitter, USB overload, and other software-related pr
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
         <video style="border-radius: 10px; width: 540px" controls>
-        <source src="/assets/img/RVL/VLA_success.mp4" type="video/mp4">
+        <source src="/assets/img/RVL/replug_success.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
         <figcaption style="margin-top: 8px; color: #666;">Figure 2: Policy rollout. π0.5 fine-tuned on 30 demos collected with this teleop setup.</figcaption>
