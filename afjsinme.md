@@ -31,7 +31,7 @@ layout: default
 </div> -->
 <h1>Leo Wang</h1>
 <div style="display: flex;">
-<h4 >I am a second-year undergraduate student at the University of Toronto, pursuing a double major in Computer Science and Physics.</h4>
+<h4 >I am a third-year undergraduate student at the University of Toronto, pursuing a double major in Computer Science and Physics.</h4>
 </div>
 <div style="display: flex;">
 <img src="/assets/img/Map.png" alt="Map" style="flex-shrink: 0; width: 300px; height: 300px; border-radius: 10px;">
@@ -39,7 +39,7 @@ layout: default
 <h4 style="margin-left: 15px">I am also an Electrical member for the <i><a href="https://www.utat.ca/" style="color:rgb(53, 119, 178);">University of Toronto Aerospace Team</a></i>
 
 <div style="margin-top: 5px"></div>
-This summer, I'm conducting research at the <i><a href="https://rvl.cs.toronto.edu/" style="color:rgb(197, 153, 31);">RVL Lab</a></i> led by Prof. Florian Shkurti
+During the summer of 2026, I worked as a researcher at the <i><a href="https://rvl.cs.toronto.edu/" style="color:rgb(197, 153, 31);">RVL Lab</a></i> under the supervision of Prof. Florian Shkurti.
 </h4>
 
 </div>

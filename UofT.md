@@ -7,8 +7,22 @@ layout: default
 **Double Major in Computer Science & Physics**  
 *2024 – Present*
 
-cGPA: 3.98 / 4.00
+cGPA: 3.90 / 4.00
+
 <div style="margin-top:20px"></div>
+
+<!-- CSC373 -->
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+<h3>CSC373 Algorithm Design, Analysis & Complexity</h3>
+</div>
+<div style="margin-top:20px"></div>
+
+<!-- CSC311 -->
+<div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
+<h3>CSC311 Introduction to Machine Learning</h3>
+</div>
+<div style="margin-top:20px"></div>
+
 
 <div style="width: 480px; background: #f7f7f7; border-radius: 8px; padding: 20px;">
 <!-- <div style="width: 280px">
