@@ -43,7 +43,7 @@ So, I trained a MLP on the 12 sensor inputs using the reference sensor's measure
 As you can see, the model is performing quite well. However, there are still some improvements that could be made, such as reducing the Bota sensor’s output rate to get smoother reference readings (currently, the Bota sensor outputs at 500 Hz and the CoinFT sensor outputs at around 70 Hz)
 
 <div style="margin-top:20px"></div>
-A little visualization of what happens inside the network when I press on sensor, pretty cool. 
+A little visualization of what happens inside the network when I press on the sensor, pretty cool!
 {% include coinft-demo.html %}
 
 <div style="margin-top:20px"></div>
