@@ -23,15 +23,16 @@ layout: default
 </div>
 
 <div style="margin-top:20px"></div>
-<h3 style="margin-bottom:10px; margin-top:10px">Fabrication</h3>  
-Some of the components used in the original CoinFT sensor are not available in my region, parts such as the mold used to provide a compressible layer betweeen the PCBs were replaced with Mold Max 40, and 1200 Primer was replaced with 99% IPA. Here, the CoinFT sensor is placed on top of a reference sensor (the Bota SensOne).
+<h3 style="margin-bottom:10px; margin-top:20px">Introduction</h3>
+Unlike traditional strain-gauge or piezoelectric FT sensors, the CoinFT sensor has 12 capacitive sensing regions (inputs) that are used to estimate the applied forces and torques.
 
-
-
-<h3 style="margin-bottom:10px; margin-top:20px">Calibration</h3>  
-The Stanford team found that the change in capacitance of each of the 12 electrodes on the PCB can be mapped to the amount of pressure exerted on the sensor. However, these individual readings don't have any direct physical meanings.  
+<h3 style="margin-bottom:10px; margin-top:20px">Calibration</h3>
+The Stanford team found that when we apply different forces and torques to the sensor, the capacitance readings across the internal adhesive silicone layer between the PCBs change and show different patterns. This suggests that these changes can be tied to the actions we perform (i.e., the forces and torques we apply).
 <div style="margin-bottom:10px"></div>
-So, I trained a MLP on the 12 sensor inputs using the reference sensor's measurements as the groud truth. The model outputs 6 values corresponding to the 6DoF FT data.
+As of right now, we don’t have an equation describing this relationship, but it seems to us that there is some sort of nonlinear mapping between the capacitance readings and the forces and torques we apply.
+
+<div style="margin-bottom:10px"></div>
+So, I trained a MLP on the 12 sensor inputs (capacitance) using the reference sensor's measurements as the groud truth. The model outputs 6 values corresponding to the 6DoF FT data.
 
 <div style="margin-top:20px; text-align: center;">
     <figure style="margin: 0;">
