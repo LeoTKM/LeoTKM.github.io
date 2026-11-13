@@ -9,16 +9,16 @@ layout: default
 <!-- c, python, opencv, PID, Altium, i2c, ROS2, MATLAB? -->
 
 <div style="margin-bottom:10px"></div>
+<div style="margin-top:20px; margin-bottom:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/RVL/RVL_Experience.png" alt="RVL experience" style="width: 540px; border-radius: 10px;">
+    </figure>
+</div>
 
 Summer research experience at the Robot Vision and Learning (RVL) lab, advised by Prof. Florian Shkurti. I designed and integrated a custom UMI-style gripper and a real-time teleoperation system to support force-aware VLA experiments. This setup allowed us to perform and collect contact rich manipulation data for the training datasets. 
 
 <div style="margin-top:10px"></div>
 I also handled procurement of ~$1,500 in parts for CoinFT and the custom UMI gripper.
-<div style="margin-top:20px; text-align: center;">
-    <figure style="margin: 0;">
-        <img src="/assets/img/RVL/RVL_Experience.png" alt="RVL experience" style="width: 540px; border-radius: 10px;">
-    </figure>
-</div>
 
 
 <!-- Teleop -->

@@ -61,6 +61,7 @@ Built a prototype integrating:
 
 <h3 style="margin-bottom:10px; margin-top:10px">Control and Tuning</h3>  
 The control system is fully integrated into a Raspberry Pi 4B. The program was written in Python and C. Prior to using the Pi, libraries that were prone to errors were tested on my Mac along with an STM32 dev board, where visual diagnostics was available.
+<div style="margin-top:10px"></div>
 
 <!-- The face detection algorithm was written in Python using OpenCV and it was verified on my computer. For simplicity, the motor control logic was initially written and tested on a STM32 dev board. Later, it was adapted into Python. Both programs are now stored on a Raspberry Pi Zero 2W which serves as the processor of the project.  -->
 
@@ -79,7 +80,7 @@ Programming was done using SSH and VSCode.
 <div style="margin-top:20px"></div>
 <!-- The current model experiences stalling when new motor control signals come in (charging and discharging the coils). That could be mitigated using stepper motor acceleration libraries to smooth the motion, however, the camera's motion toward the target position still has jitter. As a result,  -->
 I'm using a closed-loop PID controller to actively drive the motor, with the target PWM driving frequency adjusted based on the face centre offset/shift provided by the onboard camera via USB. Two magnetic encoders were used to ensure that the motors don't exceed their range of motion. 
-
+<div style="margin-top:10px"></div>
 
 The PID parameters were physcially tuned using a custom 3D base. 
 
@@ -124,6 +125,8 @@ This project integrates multiple ROS2 topics, services and custom msg & srv type
 
 I’m using a DRV8825 motor driver for the motors, but the board uses a potentiometer for current limiting and male header pins for communication, which are not reliable for long term use.
 
+<div style="margin-top:10px"></div>
+
 In addition, I need to power both the Pi and the motors, so I will need a proper power distribution solution. With that in mind, I plan to move to a custom 4-layer PCB design once PID tuning and ROS2 are integrated into the system.
 
 <div style="margin-top:20px"></div>
@@ -146,6 +149,8 @@ Iterated hardware designs using Fusion 360.
 <h3 style="margin-bottom:10px; margin-top:10px">Final Product </h3> 
 
 Some potential improvements for the next iteration would be switching from OpenCV to a YOLO model, since YOLO is always more reliable for face detection.
+
+<div style="margin-top:10px"></div>
 
 I would also upgrade to a Raspberry Pi with more RAM. This current version only has 2 GB, as a result, the face detection works well when the system isn't under much load, but it starts to struggle once ROS 2, motor control, and other processes are all running at the same time. A more powerful Pi would definitely help.
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Business Card V2
+## Business Card
 *Jun 2025 - Jul 2025*
 <div style="margin-bottom:10px"></div>
 
@@ -12,23 +12,37 @@ layout: default
     <img src="assets/img/BusinessCard/logo.jpg" alt="STM32CubeIDE" style="width: 28px;">
     <img src="assets/img/altium-logo.png" alt="Altium Designer" style="width: 120px; horizontal-align: middle;">
 </div>
-<h3 style="margin-bottom: 10px">Version 2</h3>     
-<img src="/assets/img/BusinessCard/BusinessV3.jpg" alt="SAM PCB" style="height: 280px; border-radius: 10px;">
-<div style="margin-bottom:20px"></div>
+<div style="margin-bottom:10px"></div>
 
-This is the second version, featuring the addition of a MicroSD card slot, reinforced ESD protection and some layout changes. To ensure a continuous GND plane below the USB2.0 signal lines, I designed the board as a 4-layer PCB.
+<div style="margin-top:20px"></div>
 
-The previous version was powered up and tested. However, some flaws prevented direct access via USB. These issues have been resolved, and the board is expected to trigger computer scripts once the components and firmware are added. 
-<div style="margin-bottom:20px"></div>
+<h3 style="margin-bottom:10px; margin-top:10px">Version 2</h3>
+The second version features the addition of a MicroSD card slot, reinforced ESD protection, and some layout changes. To ensure a continuous GND plane below the USB 2.0 signal lines, this is designed to be a 4-layer PCB.
 
-<h3 style="margin-bottom: 10px">Version 1</h3>     
-<img src="/assets/img/BusinessCard/BusinessReal.jpeg" alt="SAM PCB" style="height: 280px; border-radius: 10px;">
-<div style="margin-bottom:20px"></div>
+<div style="margin-top:10px"></div>
 
-This is the first version of my very first PCB design. 
+Version one was brought up and an LED blinking test was successfully run. However, some flaws prevented direct access via USB. These issues have been resolved, and the board is expected to trigger computer scripts once the components and firmware are added.
+
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/BusinessCard/BusinessV3.jpg" alt="Business card V2 PCB" style="width: 540px; border-radius: 10px;">
+        <figcaption style="margin-top: 8px; color: #666;">Figure 1: Version 2 PCB</figcaption>
+    </figure>
+</div>
+
+<div style="margin-top:20px"></div>
+
+<h3 style="margin-bottom:10px; margin-top:10px">Version 1</h3>
+This was my first PCB.
+
+<div style="margin-top:20px; text-align: center;">
+    <figure style="margin: 0;">
+        <img src="/assets/img/BusinessCard/BusinessReal.jpeg" alt="Business card V1 PCB" style="width: 540px; border-radius: 10px;">
+        <figcaption style="margin-top: 8px; color: #666;">Figure 2: Version 1 PCB</figcaption>
+    </figure>
+</div>
 
 <!-- Compared to the first version, I changed the improper PCB layout, moved and added components to address the issues I got from the first testing results. I also added pads around the perimeter, which not only makes it more aesthetically pleasing but also allows me to use it as a programmable dev board. -->
-<div style="margin-bottom:20px"></div>
 <!-- <img src="/assets/img/BusinessCard/Flashed.mov" alt="SAM PCB" style="height: 280px; border-radius: 10px; margin-top:10px"> -->
 
 <!-- <video style="height: 280px; border-radius: 10px;" autoplay loop muted playsinline>
@@ -46,5 +60,7 @@ While the current version functions as a "LED" board, my goal is to turn it into
 The board already supports several communication protocols, including SPI and I2C.
 The next step is to have data readings to appear on my host computer. This would involve adding a UART-to-USB chip, the supporting circuitry, and having a USB port for wired communication.
 <div style="margin-top:10px"></div> -->
+
 <div style="margin-top:20px"></div>
+
 [Back](./AESN.html)
